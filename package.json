@@ -1,0 +1,46 @@
+{
+	"name": "@standard-config/tsconfig",
+	"version": "0.0.0",
+	"description": "Strict TypeScript config for modern projects",
+	"license": "MIT",
+	"repository": "standard-config/tsconfig",
+	"author": {
+		"name": "Dom Porada",
+		"email": "dom@dom.engineering",
+		"url": "https://dom.engineering"
+	},
+	"keywords": [
+		"nodenext",
+		"noemit",
+		"tsconfig",
+		"type-stripping",
+		"typescript"
+	],
+	"files": [
+		"tsconfig.bundler.json",
+		"tsconfig.json"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": "./tsconfig.json",
+		"./bundler": "./tsconfig.bundler.json"
+	},
+	"engines": {
+		"node": ">=22"
+	},
+	"peerDependencies": {
+		"typescript": ">=5.9"
+	},
+	"peerDependenciesMeta": {
+		"typescript": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	},
+	"scripts": {
+		"test": "tsc --project ./tests/tsconfig.json --noEmit && tsc --project ./tests/tsconfig.bundler.json --noEmit"
+	}
+}
