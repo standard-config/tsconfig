@@ -43,9 +43,9 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "^1.0.2",
-		"prettier": "^3.7.4",
-		"typescript": "^5.9.3"
+		"@standard-config/prettier": "1.0.2",
+		"prettier": "3.7.4",
+		"typescript": "5.9.3"
 	},
 	"scripts": {
 		"format": "prettier --write --ignore-unknown .",
