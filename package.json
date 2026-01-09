@@ -33,6 +33,7 @@
 	"engines": {
 		"node": ">=22"
 	},
+	"packageManager": "pnpm@10.27.0",
 	"peerDependencies": {
 		"typescript": ">=5.9"
 	},
@@ -47,7 +48,9 @@
 		"typescript": "^5.9.3"
 	},
 	"scripts": {
-		"prepack": "npm run test",
+		"format": "prettier --write --ignore-unknown .",
+		"format:ci": "prettier --check --ignore-unknown .",
+		"prepack": "pnpm run '/^(format:ci|test)$/'",
 		"test": "tsc --project ./tests/tsconfig.json --noEmit && tsc --project ./tests/tsconfig.bundler.json --noEmit"
 	}
 }
