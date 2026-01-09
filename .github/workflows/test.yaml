@@ -30,7 +30,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
-      - run: npm install --no-save typescript@${{ matrix.typescript-version }}
-      - run: npx tsc --version
-      - run: npm test
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install
+      - run: pnpm add typescript@${{ matrix.typescript-version }}
+      - run: pnpm exec tsc --version
+      - run: pnpm test
