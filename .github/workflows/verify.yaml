@@ -21,4 +21,4 @@ jobs:
           node-version: 24
       - uses: pnpm/action-setup@v4
       - run: pnpm install
-      - run: pnpm format:ci
+      - run: pnpm format:check
