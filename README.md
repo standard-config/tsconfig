@@ -22,9 +22,9 @@ Reference `@standard-config/tsconfig` in your `tsconfig.json`:
 
 ```json
 {
-	"extends": "@standard-config/tsconfig",
-	"include": ["**/*"],
-	"exclude": ["node_modules"]
+    "extends": "@standard-config/tsconfig",
+    "include": ["**/*"],
+    "exclude": ["node_modules"]
 }
 ```
 
@@ -32,6 +32,6 @@ For projects that require a compilation step, use `@standard-config/tsconfig/bun
 
 ```json
 {
-	"extends": "@standard-config/tsconfig/bundler"
+    "extends": "@standard-config/tsconfig/bundler"
 }
 ```
