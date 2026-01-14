@@ -43,7 +43,7 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "1.2.0",
+		"@standard-config/prettier": "1.2.1",
 		"prettier": "3.7.4",
 		"typescript": "5.9.3"
 	},
