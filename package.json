@@ -44,6 +44,7 @@
 	},
 	"devDependencies": {
 		"@standard-config/prettier": "1.4.0",
+		"husky": "9.1.7",
 		"prettier": "3.8.1",
 		"typescript": "5.9.3"
 	},
@@ -52,6 +53,7 @@
 		"format": "prettier --write --ignore-unknown .",
 		"format:check": "prettier --check --ignore-unknown .",
 		"prepack": "pnpm run '/^(format:check|test)$/'",
+		"prepare": "husky",
 		"test": "pnpm run '/^test:/'",
 		"test:tsc:base": "tsc --project tests/tsconfig.json",
 		"test:tsc:bundler": "tsc --project tests/tsconfig.bundler.json",
