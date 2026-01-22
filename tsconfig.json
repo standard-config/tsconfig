@@ -8,7 +8,11 @@
 		"incremental": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"lib": ["dom", "dom.iterable", "es2024"],
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"es2024"
+		],
 		"libReplacement": false,
 		"module": "nodenext",
 		"moduleDetection": "force",
