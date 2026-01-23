@@ -33,7 +33,7 @@
 	"engines": {
 		"node": ">=22"
 	},
-	"packageManager": "pnpm@10.28.0",
+	"packageManager": "pnpm@10.28.1",
 	"peerDependencies": {
 		"typescript": ">=5.9"
 	},
@@ -43,7 +43,7 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "1.4.0",
+		"@standard-config/prettier": "1.5.0",
 		"husky": "9.1.7",
 		"prettier": "3.8.1",
 		"typescript": "5.9.3"
@@ -57,7 +57,7 @@
 		"test": "pnpm run '/^test:/'",
 		"test:tsc:base": "tsc --project tests/tsconfig.json",
 		"test:tsc:bundler": "tsc --project tests/tsconfig.bundler.json",
-		"test:tsgo:base": "pnpm dlx @typescript/native-preview --project tests/tsconfig.json",
-		"test:tsgo:bundler": "pnpm dlx @typescript/native-preview --project tests/tsconfig.bundler.json"
+		"test:tsgo:base": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.json",
+		"test:tsgo:bundler": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.bundler.json"
 	}
 }
