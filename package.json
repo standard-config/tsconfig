@@ -1,7 +1,7 @@
 {
 	"name": "@standard-config/tsconfig",
 	"version": "2.0.0",
-	"description": "Strict TypeScript config for modern projects",
+	"description": "Strict config for modern TypeScript runtimes",
 	"license": "MIT",
 	"author": {
 		"name": "Dom Porada",

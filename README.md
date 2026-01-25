@@ -4,7 +4,7 @@
 
 # @standard-config/tsconfig
 
-Strict TypeScript config for modern projects. Designed around `node`’s type stripping and tuned for `noEmit` checks.
+Strict config for modern TypeScript runtimes. Designed around `node`’s type stripping and tuned for `noEmit` checks.
 
 ## Install
 
@@ -18,7 +18,7 @@ pnpm add --save-dev @standard-config/tsconfig
 
 ## Usage
 
-Reference `@standard-config/tsconfig` in your `tsconfig.json`:
+Create your `tsconfig.json`:
 
 ```json
 {
