@@ -31,6 +31,13 @@
 		"./bundler": "./tsconfig.bundler.json"
 	},
 	"packageManager": "pnpm@10.28.1",
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": ">=22",
+			"onFail": "warn"
+		}
+	},
 	"peerDependencies": {
 		"typescript": ">=5.9"
 	},
