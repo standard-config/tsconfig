@@ -30,9 +30,6 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"engines": {
-		"node": ">=22"
-	},
 	"packageManager": "pnpm@10.28.1",
 	"peerDependencies": {
 		"typescript": ">=5.9"
