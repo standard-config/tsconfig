@@ -1,6 +1,5 @@
 .DS_Store
 .husky/_
 node_modules
-pnpm-lock.yaml
 tsconfig.tsbuildinfo
 tsconfig.*.tsbuildinfo
