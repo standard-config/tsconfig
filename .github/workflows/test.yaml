@@ -12,13 +12,14 @@ permissions:
   contents: read
 
 jobs:
-  tsc:
+  test:
     name: node@${{ matrix.node-version }} / typescript@${{ matrix.typescript-version }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         node-version:
+          - 20
           - 22
           - 24
           - latest
@@ -33,24 +34,29 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: node --version
       - uses: pnpm/action-setup@v4
-        with:
-          version: latest
       - run: pnpm install
       - run: pnpm add typescript@${{ matrix.typescript-version }}
       - run: pnpm exec tsc --version
       - run: pnpm run '/^test:tsc:/'
 
-  tsgo:
-    name: node@24 / typescript@7 (native-preview)
+  test-tsgo:
+    name: node@${{ matrix.node-version }} / typescript@native-preview
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version:
+          - 20
+          - 22
+          - 24
+          - latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: ${{ matrix.node-version }}
+      - run: node --version
       - uses: pnpm/action-setup@v4
-        with:
-          version: latest
       - run: pnpm install
       - run: pnpm dlx @typescript/native-preview --version
       - run: pnpm run '/^test:tsgo:/'
