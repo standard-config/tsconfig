@@ -1,6 +1,6 @@
 {
 	"name": "@standard-config/tsconfig",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Strict config for modern TypeScript runtimes",
 	"license": "MIT",
 	"author": {
