@@ -30,7 +30,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@10.28.1",
+	"packageManager": "pnpm@10.28.2",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
@@ -47,7 +47,7 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "1.6.1",
+		"@standard-config/prettier": "1.7.0",
 		"husky": "9.1.7",
 		"prettier": "3.8.1",
 		"typescript": "5.9.3"
