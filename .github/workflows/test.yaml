@@ -24,7 +24,6 @@ jobs:
           - 24
           - latest
         typescript-version:
-          - 5.9
           - latest
           - beta
     steps:
