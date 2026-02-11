@@ -26,7 +26,7 @@ jobs:
         typescript-version:
           - 5.9
           - latest
-          - next
+          - beta
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
