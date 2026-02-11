@@ -1,22 +1,16 @@
 {
 	"compilerOptions": {
 		"allowImportingTsExtensions": true,
-		"allowJs": false,
 		"erasableSyntaxOnly": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
 		"incremental": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
 		"lib": [
 			"dom",
-			"dom.iterable",
 			"es2024"
 		],
-		"libReplacement": false,
 		"module": "nodenext",
 		"moduleDetection": "force",
-		"moduleResolution": "nodenext",
 		"noEmit": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitOverride": true,
@@ -25,9 +19,7 @@
 		"noUnusedParameters": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
-		"strict": true,
 		"target": "esnext",
-		"useUnknownInCatchVariables": true,
 		"verbatimModuleSyntax": true
 	}
 }
