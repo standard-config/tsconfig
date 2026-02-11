@@ -31,7 +31,9 @@ Create your `tsconfig.json`:
 }
 ```
 
-For projects that require a compilation step, use `@standard-config/tsconfig/bundler` instead. This is the recommended base config for Next.js, Vite-based projects, and other React apps.
+### Bundlers
+
+For projects that require a compilation step, use `@standard-config/tsconfig/bundler` instead. Being slightly more permissive, it’s the recommended base config for Next.js, Vite-based projects, and other React apps.
 
 ```json
 {
