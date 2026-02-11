@@ -30,7 +30,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@10.28.2",
+	"packageManager": "pnpm@10.29.2",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
@@ -39,7 +39,7 @@
 		}
 	},
 	"peerDependencies": {
-		"typescript": ">=5.9"
+		"typescript": ">=6.0.0-0"
 	},
 	"peerDependenciesMeta": {
 		"typescript": {
@@ -50,7 +50,7 @@
 		"@standard-config/prettier": "1.9.1",
 		"husky": "9.1.7",
 		"prettier": "3.8.1",
-		"typescript": "5.9.3"
+		"typescript": "6.0.0-beta"
 	},
 	"scripts": {
 		"fix": "pnpm format",
