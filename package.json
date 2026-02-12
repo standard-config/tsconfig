@@ -47,9 +47,9 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "1.9.1",
-		"husky": "9.1.7",
-		"prettier": "3.8.1",
+		"@standard-config/prettier": "^1.9.1",
+		"husky": "^9.1.7",
+		"prettier": "^3.8.1",
 		"typescript": "6.0.0-beta"
 	},
 	"scripts": {
