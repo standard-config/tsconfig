@@ -1,7 +1,14 @@
+import './fixtures/erasable-syntax-only.ts';
 import './fixtures/no-implicit-any.ts';
+import './fixtures/no-implicit-override.ts';
+import './fixtures/no-implicit-returns.ts';
 import './fixtures/no-implicit-this.ts';
+import './fixtures/no-unchecked-indexed-access.ts';
+import './fixtures/no-unused-parameters.ts';
+import './fixtures/resolve-json-module.ts';
 import './fixtures/strict-bind-call-apply.ts';
 import './fixtures/strict-function-types.ts';
 import './fixtures/strict-null-checks.ts';
 import './fixtures/strict-property-initialization.ts';
 import './fixtures/use-unknown-in-catch-variables.ts';
+import './fixtures/verbatim-module-syntax.ts';
