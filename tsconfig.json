@@ -19,7 +19,6 @@
 		"noUnusedParameters": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
-		"strict": true,
 		"target": "esnext",
 		"verbatimModuleSyntax": true
 	}
