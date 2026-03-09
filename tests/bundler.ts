@@ -1,0 +1,15 @@
+import './fixtures/erasable-syntax-only';
+import './fixtures/no-implicit-any';
+import './fixtures/no-implicit-override';
+import './fixtures/no-implicit-returns';
+import './fixtures/no-implicit-this';
+import './fixtures/no-unchecked-indexed-access';
+import './fixtures/no-unchecked-side-effect-imports';
+import './fixtures/no-unused-parameters';
+import './fixtures/resolve-json-module';
+import './fixtures/strict-bind-call-apply';
+import './fixtures/strict-function-types';
+import './fixtures/strict-null-checks';
+import './fixtures/strict-property-initialization';
+import './fixtures/use-unknown-in-catch-variables';
+import './fixtures/verbatim-module-syntax';

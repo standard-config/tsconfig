@@ -1,6 +1,6 @@
 {
 	"extends": "../tsconfig.bundler.json",
 	"files": [
-		"index.ts"
+		"bundler.ts"
 	]
 }
