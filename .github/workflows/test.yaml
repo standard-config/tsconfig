@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: node --version
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
       - run: pnpm install
       - run: pnpm exec tsc --version
       - run: pnpm run '/^test:tsc:/'
@@ -51,7 +51,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: node --version
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
       - run: pnpm install
       - run: pnpm dlx @typescript/native-preview --version
       - run: pnpm run '/^test:tsgo:/'
