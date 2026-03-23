@@ -1,4 +1,4 @@
-[![](https://img.shields.io/npm/v/%40standard-config%2Ftsconfig)](https://www.npmjs.com/package/@standard-config/tsconfig) [![](https://img.shields.io/badge/TypeScript_6-baseline-success)](tsconfig.json)
+[![](https://img.shields.io/npm/v/%40standard-config%2Ftsconfig)](https://www.npmjs.com/package/@standard-config/tsconfig) [![](https://img.shields.io/badge/TypeScript_6.0-baseline-success)](tsconfig.json)
 
 # @standard-config/tsconfig
 
