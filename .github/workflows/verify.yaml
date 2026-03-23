@@ -20,5 +20,7 @@ jobs:
         with:
           node-version: 24
       - uses: pnpm/action-setup@v5
+        with:
+          cache: true
       - run: pnpm install
       - run: pnpm format:check

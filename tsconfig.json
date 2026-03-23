@@ -7,7 +7,7 @@
 		"jsx": "react-jsx",
 		"lib": [
 			"dom",
-			"es2024"
+			"es2025"
 		],
 		"module": "nodenext",
 		"moduleDetection": "force",
