@@ -47,7 +47,7 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "^1.11.2",
+		"@standard-config/prettier": "^1.11.3",
 		"husky": "^9.1.7",
 		"prettier": "^3.8.1",
 		"typescript": "^6.0.2"
