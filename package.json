@@ -30,7 +30,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@10.31.0",
+	"packageManager": "pnpm@10.33.0",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
@@ -47,21 +47,24 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "^1.11.3",
-		"husky": "^9.1.7",
+		"@standard-config/prettier": "^1.12.0",
 		"prettier": "^3.8.2",
+		"simple-git-hooks": "^2.13.1",
 		"typescript": "^6.0.2"
 	},
 	"scripts": {
 		"fix": "pnpm format",
-		"format": "prettier --write --ignore-unknown .",
+		"format": "prettier --ignore-unknown --log-level=warn --write .",
 		"format:check": "prettier --check --ignore-unknown .",
 		"prepack": "pnpm run '/^(format:check|test)$/'",
-		"prepare": "husky",
+		"prepare": "simple-git-hooks",
 		"test": "pnpm run '/^test:/'",
 		"test:tsc:base": "tsc --project tests/tsconfig.json",
 		"test:tsc:bundler": "tsc --project tests/tsconfig.bundler.json",
 		"test:tsgo:base": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.json",
 		"test:tsgo:bundler": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.bundler.json"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "pnpm prepack"
 	}
 }
