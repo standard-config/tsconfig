@@ -40,6 +40,11 @@ For projects that require a compilation step, use `@standard-config/tsconfig/bun
 }
 ```
 
+## Related
+
+- [**@standard-config/oxlint**](https://github.com/standard-config/oxlint)
+- [**@standard-config/prettier**](https://github.com/standard-config/prettier)
+
 ## License
 
 MIT © [Dom Porada](https://dom.engineering)
