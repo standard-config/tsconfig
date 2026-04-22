@@ -30,7 +30,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@10.33.0",
+	"packageManager": "pnpm@10.33.1",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
@@ -48,6 +48,7 @@
 	},
 	"devDependencies": {
 		"@standard-config/prettier": "^1.12.1",
+		"@typescript/native-preview": "beta",
 		"prettier": "^3.8.3",
 		"simple-git-hooks": "^2.13.1",
 		"typescript": "^6.0.3"
@@ -61,8 +62,8 @@
 		"test": "pnpm run '/^test:/'",
 		"test:tsc:base": "tsc --project tests/tsconfig.json",
 		"test:tsc:bundler": "tsc --project tests/tsconfig.bundler.json",
-		"test:tsgo:base": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.json",
-		"test:tsgo:bundler": "pnpm --silent dlx @typescript/native-preview --project tests/tsconfig.bundler.json"
+		"test:tsgo:base": "tsgo --project tests/tsconfig.json",
+		"test:tsgo:bundler": "tsgo --project tests/tsconfig.bundler.json"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "pnpm prepack"

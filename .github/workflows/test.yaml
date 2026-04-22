@@ -57,5 +57,5 @@ jobs:
         with:
           cache: true
       - run: pnpm install
-      - run: pnpm dlx @typescript/native-preview --version
+      - run: pnpm exec tsgo --version
       - run: pnpm run '/^test:tsgo:/'
