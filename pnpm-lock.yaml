@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
 
-overrides:
-  '@prettier/plugin-oxc>oxc-parser': ^0.125.0
-
 importers:
 
   .:
