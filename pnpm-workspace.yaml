@@ -3,9 +3,11 @@ allowBuilds:
 
 autoInstallPeers: false
 
-blockExoticSubdeps: true
+minimumReleaseAgeExclude:
+  - '@standard-config/*'
 
-strictDepBuilds: true
+overrides:
+  '@prettier/plugin-oxc': '-'
 
 strictPeerDependencies: true
 

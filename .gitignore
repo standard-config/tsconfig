@@ -1,5 +1,4 @@
 .DS_Store
-.husky/_
 node_modules
 tsconfig.tsbuildinfo
 tsconfig.*.tsbuildinfo
