@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@standard-config/prettier':
-        specifier: ^1.13.0
-        version: 1.13.0(prettier@3.8.3)
+        specifier: ^1.13.1
+        version: 1.13.1(prettier@3.8.3)
       '@typescript/native-preview':
         specifier: beta
         version: 7.0.0-dev.20260421.2
@@ -179,8 +179,8 @@ packages:
     resolution: {integrity: sha512-Hbr7yen4fP5TxGM54ucXa4o5NwWXatJ6Bd9I8gp0PValYbI4Rug2Gu+rVv7K7o/efQc3F5ctqWJz47rYaa8zBw==}
     engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
 
-  '@standard-config/prettier@1.13.0':
-    resolution: {integrity: sha512-6LO2u+f9xLqLX1iLtSOzDjlCssZvfPYLUJbxHzHKOOM2nWA4M+6C23mQ30c5qFmmm6hrWfdY8eu2Fq6n0sB4Ng==}
+  '@standard-config/prettier@1.13.1':
+    resolution: {integrity: sha512-eO3/sKNEH9VLQE6yLam/WjiT9LfIwEAYAfuFofpVBM1T8CRNvuiyeZzl3jwGbJjnGreJfNVtupB5TACuile91g==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.8.0
@@ -237,8 +237,8 @@ packages:
     peerDependencies:
       prettier: '>=3'
 
-  prettier-plugin-markdown-html@1.4.0:
-    resolution: {integrity: sha512-ZTvFGYVVEKNDhrTqf1Uk/9aQPvzHD1OxpXxpjagdXcQC3lsLf8Z6EccIyIncInhpbzE6mvQ8RvmoIjZdJyx8Og==}
+  prettier-plugin-markdown-html@1.4.1:
+    resolution: {integrity: sha512-//5EVnOcF1xx9kutRzUIPwUuTOSgwJW9X6/+Bh+/lJyk8nPlT/1HISlutWhFqjQo1D2X1tLQdd+d3Dum8pfx5w==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3'
@@ -288,8 +288,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  yaml@2.8.4:
-    resolution: {integrity: sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog==}
+  yaml@2.9.0:
+    resolution: {integrity: sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -390,12 +390,12 @@ snapshots:
 
   '@reteps/dockerfmt@0.5.2': {}
 
-  '@standard-config/prettier@1.13.0(prettier@3.8.3)':
+  '@standard-config/prettier@1.13.1(prettier@3.8.3)':
     dependencies:
       '@prettier/plugin-oxc': 0.1.4
       prettier: 3.8.3
       prettier-plugin-expand-json: 1.0.4(prettier@3.8.3)
-      prettier-plugin-markdown-html: 1.4.0(prettier@3.8.3)
+      prettier-plugin-markdown-html: 1.4.1(prettier@3.8.3)
       prettier-plugin-pkg: 0.22.1(prettier@3.8.3)
       prettier-plugin-sh: 0.18.1(prettier@3.8.3)
       prettier-plugin-sort-json: 4.2.0(prettier@3.8.3)
@@ -466,7 +466,7 @@ snapshots:
     dependencies:
       prettier: 3.8.3
 
-  prettier-plugin-markdown-html@1.4.0(prettier@3.8.3):
+  prettier-plugin-markdown-html@1.4.1(prettier@3.8.3):
     dependencies:
       prettier: 3.8.3
 
@@ -487,7 +487,7 @@ snapshots:
   prettier-plugin-yaml@1.1.3(prettier@3.8.3):
     dependencies:
       prettier: 3.8.3
-      yaml: 2.8.4
+      yaml: 2.9.0
 
   prettier@3.8.3: {}
 
@@ -501,4 +501,4 @@ snapshots:
 
   typescript@6.0.3: {}
 
-  yaml@2.8.4: {}
+  yaml@2.9.0: {}
