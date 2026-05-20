@@ -8,6 +8,7 @@
 		"email": "dom@dom.engineering",
 		"url": "https://dom.engineering"
 	},
+	"homepage": "https://sconfig.org/tsconfig",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/standard-config/tsconfig.git"
@@ -30,7 +31,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@11.1.1",
+	"packageManager": "pnpm@11.1.3",
 	"devEngines": {
 		"runtime": {
 			"name": "node",

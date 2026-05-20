@@ -4,7 +4,8 @@ allowBuilds:
 autoInstallPeers: false
 
 minimumReleaseAgeExclude:
-  - '@standard-config/*'
+  - '@typescript/*'
+  - typescript
 
 overrides:
   '@prettier/plugin-oxc': '-'
