@@ -29,7 +29,7 @@
 
 ## Overview
 
-Strict config for modern TypeScript runtimes. Designed around `node`’s type stripping and tuned for `noEmit` checks.
+Strict TypeScript defaults for `noEmit` checks. Designed around `node`’s type stripping, native ESM semantics, and verified through [fixture tests](tests/fixtures).
 
 ## Install
 
