@@ -1,5 +1,6 @@
 import './fixtures/allow-unreachable-code';
 import './fixtures/erasable-syntax-only';
+import './fixtures/no-fallthrough-cases-in-switch';
 import './fixtures/no-implicit-any';
 import './fixtures/no-implicit-override';
 import './fixtures/no-implicit-returns';
