@@ -1,8 +1,35 @@
-[![](https://img.shields.io/npm/v/%40standard-config%2Ftsconfig?style=flat-square)](https://npmx.dev/package/@standard-config/tsconfig) [![](https://img.shields.io/badge/TypeScript_6.0-baseline-success?style=flat-square)](tsconfig.json)
+<p align="center">
+    <a href="https://github.com/standard-config/tsconfig">
+        <img
+            src="https://github.com/standard-config/.github/blob/main/.github/assets/standard-config-tsconfig@3x.png?raw=true"
+            width="500"
+            alt=""
+        />
+    </a>
+</p>
 
-# @standard-config/tsconfig
+<h1 align="center">@standard&#8209;config/tsconfig</h1>
 
-Strict config for modern TypeScript runtimes. Designed around `node`’s type stripping and tuned for `noEmit` checks.
+<p align="center">Strict config for modern TypeScript&nbsp;runtimes.</p>
+
+<p align="center">
+    <a href="https://npmx.dev/package/@standard-config/tsconfig"
+        ><img
+            src="https://img.shields.io/npm/v/%40standard-config%2Ftsconfig?style=flat-square"
+            alt=""
+    /></a>
+    <a href="tsconfig.json"
+        ><img
+            src="https://img.shields.io/badge/TypeScript_6.0-baseline-success?style=flat-square"
+            alt=""
+    /></a>
+</p>
+
+<div>&nbsp;</div>
+
+## Overview
+
+Strict TypeScript defaults for `noEmit` checks. Designed around `node`’s type stripping, native ESM semantics, and verified through [fixture tests](tests/fixtures).
 
 ## Install
 
