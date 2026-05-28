@@ -1,3 +1,4 @@
+import './fixtures/allow-unreachable-code';
 import './fixtures/erasable-syntax-only';
 import './fixtures/no-implicit-any';
 import './fixtures/no-implicit-override';

@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"allowImportingTsExtensions": true,
+		"allowUnreachableCode": false,
 		"erasableSyntaxOnly": true,
 		"incremental": true,
 		"isolatedModules": true,

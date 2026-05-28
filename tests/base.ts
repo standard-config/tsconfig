@@ -1,3 +1,4 @@
+import './fixtures/allow-unreachable-code.ts';
 import './fixtures/erasable-syntax-only.ts';
 import './fixtures/no-implicit-any.ts';
 import './fixtures/no-implicit-override.ts';
