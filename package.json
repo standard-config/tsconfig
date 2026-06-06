@@ -31,7 +31,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@11.4.0",
+	"packageManager": "pnpm@11.5.2",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
