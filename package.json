@@ -31,7 +31,7 @@
 		".": "./tsconfig.json",
 		"./bundler": "./tsconfig.bundler.json"
 	},
-	"packageManager": "pnpm@11.5.3",
+	"packageManager": "pnpm@11.8.0",
 	"devEngines": {
 		"runtime": {
 			"name": "node",
@@ -52,7 +52,7 @@
 		"@typescript/native-preview": "beta",
 		"prettier": "^3.8.4",
 		"simple-git-hooks": "^2.13.1",
-		"typescript": "^6.0.3"
+		"typescript": "^7.0.1-rc"
 	},
 	"scripts": {
 		"fix": "pnpm format",
