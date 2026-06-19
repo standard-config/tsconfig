@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   test:
-    name: node@${{ matrix.node-version }} / typescript@6
+    name: node@${{ matrix.node-version }} / typescript@7
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -38,8 +38,8 @@ jobs:
       - run: pnpm exec tsc --version
       - run: pnpm run '/^test:tsc:/'
 
-  test-tsgo:
-    name: node@${{ matrix.node-version }} / typescript@7
+  test-tsc6:
+    name: node@${{ matrix.node-version }} / typescript@6
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -61,5 +61,5 @@ jobs:
         with:
           cache: true
       - run: pnpm install
-      - run: pnpm exec tsgo --version
-      - run: pnpm run '/^test:tsgo:/'
+      - run: pnpm exec tsc6 --version
+      - run: pnpm run '/^test:tsc6:/'

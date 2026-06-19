@@ -14,9 +14,9 @@ importers:
       '@standard-config/prettier':
         specifier: ^1.13.3
         version: 1.13.3(prettier@3.8.4)
-      '@typescript/native-preview':
-        specifier: beta
-        version: 7.0.0-dev.20260421.2
+      '@typescript/typescript6':
+        specifier: ^6.0.1
+        version: 6.0.1
       prettier:
         specifier: ^3.8.4
         version: 3.8.4
@@ -38,45 +38,6 @@ packages:
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.8.0
-
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-fHv1r3ZmVo6zxuAIFmuX3w9QxbcauoG0SsWhmDwm6VmRubLlOJIcmTtlmV3JAb9oOnq8LuzZljzT7Q39fSMQDw==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-KWTR6xbW9t+JS7D5DQIzo75pqVXVWUxF9PMv/+S6xsnOjCVd6g0ixHcFpFMJMKSUQpGPr8Z5f7b8ks6LHW01jg==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-VLMEuml3BhUb+jaL0TXQ4xvVODxJF+RhkI+tBWvlynsJI4khTXEiwWh+wPOJrsfBRYFRMXEu28Odl/HXkYze8w==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-BWLQO3nemLDSV5PoE5GPHe1dU9Dth77Kv8/cle9Ujcp4LhPo0KincdPqFH/qKeU/xvW25mgFueflZ1nc4rKuww==}
-    cpu: [arm]
-    os: [linux]
-
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-qUrJWTB5/wv4wnRG0TRXElAxc2kykNiRNyEIEqBbLmzDlrcvAW7RRy8MXoY1ZyTiKGMu14itZ3x9oW6+blFpRw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-Rc6NsWlZmCs5YUKVzKgwoBOoRUGsPzct4BDMRX0csD1devLBBc4AbUXWKsJRbpwIAnqMO1ld4sNHEb+wXgfNHQ==}
-    cpu: [arm64]
-    os: [win32]
-
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-GQv1+dya1t6EqF2Cpsb+xoozovdX10JUSf6Kl/8xNkTapzmlHd+uMr+8ku3jIASTxoRGn0Mklgjj3MDKrOTuLg==}
-    cpu: [x64]
-    os: [win32]
-
-  '@typescript/native-preview@7.0.0-dev.20260421.2':
-    resolution: {integrity: sha512-CmajHI25HpVWE9R1XFoxr+cphJPxoYD3eFioQtAvXYkMFKnLdICMS9pXre9Pybizb75ejRxjKD5/CVG055rEIg==}
-    hasBin: true
 
   '@typescript/typescript-aix-ppc64@7.0.1-rc':
     resolution: {integrity: sha512-oqq2ZfEJ7BQuufcC3QBQndZLPNyamYNHLao8lKRBeeSkZKypBqxPSgkzrcFZtbYcIaBvpiyUnQP9MT7DEYHWbw==}
@@ -198,6 +159,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@typescript/typescript6@6.0.1':
+    resolution: {integrity: sha512-JbesA1Y3wSOYpcw4b4XvG8KCk9AaStATxk1Vmc1qY0Y30fjovvcuRXX2fJ8eC2JRycKQi7V1VYKUljSVBJUzZA==}
+    hasBin: true
+
   prettier-plugin-expand-json@1.0.5:
     resolution: {integrity: sha512-ggjy4JiQ03+m006D618vMYCKUwfQZVg2/+LHvCRtEHuz6BYK9HMutlBIJSDPdBDAZEP+50bL4/Tz83EdllOsEA==}
     engines: {node: '>=20'}
@@ -250,6 +215,11 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   typescript@7.0.1-rc:
     resolution: {integrity: sha512-drEP77wK7CCDlPfXZH4e008UUQOsw1DFmHmZOZjuNA+yoDLLnSNMZRXi90NbV/1LVo7SbNLq1bs3jjvk49TEqQ==}
     engines: {node: '>=16.20.0'}
@@ -273,37 +243,6 @@ snapshots:
       prettier-plugin-sh: 0.18.1(prettier@3.8.4)
       prettier-plugin-sort-json: 4.2.0(prettier@3.8.4)
       prettier-plugin-yaml: 1.2.0(prettier@3.8.4)
-
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260421.2':
-    optional: true
-
-  '@typescript/native-preview@7.0.0-dev.20260421.2':
-    optionalDependencies:
-      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-linux-arm': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-linux-x64': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260421.2
-      '@typescript/native-preview-win32-x64': 7.0.0-dev.20260421.2
 
   '@typescript/typescript-aix-ppc64@7.0.1-rc':
     optional: true
@@ -365,6 +304,10 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.1-rc':
     optional: true
 
+  '@typescript/typescript6@6.0.1':
+    dependencies:
+      typescript: 6.0.3
+
   prettier-plugin-expand-json@1.0.5(prettier@3.8.4):
     dependencies:
       prettier: 3.8.4
@@ -401,6 +344,8 @@ snapshots:
   simple-git-hooks@2.13.1: {}
 
   tslib@2.8.1: {}
+
+  typescript@6.0.3: {}
 
   typescript@7.0.1-rc:
     optionalDependencies:
