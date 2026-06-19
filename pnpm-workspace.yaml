@@ -17,7 +17,3 @@ overrides:
 strictPeerDependencies: true
 
 trustPolicy: no-downgrade
-
-updateConfig:
-  ignoreDependencies:
-    - '@typescript/native-preview'
