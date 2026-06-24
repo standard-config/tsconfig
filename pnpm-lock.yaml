@@ -24,7 +24,7 @@ importers:
         specifier: ^2.13.1
         version: 2.13.1
       typescript:
-        specifier: ^7.0.1-rc
+        specifier: 7.0.1-rc
         version: 7.0.1-rc
 
 packages:
