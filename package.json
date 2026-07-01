@@ -50,7 +50,7 @@
 	"devDependencies": {
 		"@standard-config/prettier": "^1.15.0",
 		"@typescript/typescript6": "^6.0.1",
-		"prettier": "^3.9.1",
+		"prettier": "^3.9.3",
 		"simple-git-hooks": "^2.13.1",
 		"typescript": "7.0.1-rc"
 	},
