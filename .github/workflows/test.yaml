@@ -19,7 +19,6 @@ jobs:
       fail-fast: false
       matrix:
         node-version:
-          - 20
           - 22
           - 24
           - latest
@@ -45,7 +44,6 @@ jobs:
       fail-fast: false
       matrix:
         node-version:
-          - 20
           - 22
           - 24
           - latest
