@@ -16,5 +16,6 @@ updates:
     cooldown:
       default-days: 1
       exclude:
+        - '@standard-config/*'
         - '@typescript/*'
         - typescript
