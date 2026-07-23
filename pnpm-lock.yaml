@@ -13,13 +13,13 @@ importers:
     devDependencies:
       '@standard-config/prettier':
         specifier: ^1.16.0
-        version: 1.16.0(prettier@3.9.5)
+        version: 1.16.0(prettier@3.9.6)
       '@typescript/typescript6':
         specifier: ^6.0.2
         version: 6.0.2
       prettier:
-        specifier: ^3.9.5
-        version: 3.9.5
+        specifier: ^3.9.6
+        version: 3.9.6
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
@@ -220,8 +220,8 @@ packages:
     peerDependencies:
       prettier: '>=3'
 
-  prettier@3.9.5:
-    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -269,15 +269,15 @@ snapshots:
       '@reteps/dockerfmt-linux-arm64': 0.5.4
       '@reteps/dockerfmt-linux-x64': 0.5.4
 
-  '@standard-config/prettier@1.16.0(prettier@3.9.5)':
+  '@standard-config/prettier@1.16.0(prettier@3.9.6)':
     dependencies:
-      prettier: 3.9.5
-      prettier-plugin-expand-json: 1.0.5(prettier@3.9.5)
-      prettier-plugin-markdown-html: 1.4.1(prettier@3.9.5)
-      prettier-plugin-pkg: 0.22.1(prettier@3.9.5)
-      prettier-plugin-sh: 0.19.0(prettier@3.9.5)
-      prettier-plugin-sort-json: 4.2.0(prettier@3.9.5)
-      prettier-plugin-yaml: 1.2.0(prettier@3.9.5)
+      prettier: 3.9.6
+      prettier-plugin-expand-json: 1.0.5(prettier@3.9.6)
+      prettier-plugin-markdown-html: 1.4.1(prettier@3.9.6)
+      prettier-plugin-pkg: 0.22.1(prettier@3.9.6)
+      prettier-plugin-sh: 0.19.0(prettier@3.9.6)
+      prettier-plugin-sort-json: 4.2.0(prettier@3.9.6)
+      prettier-plugin-yaml: 1.2.0(prettier@3.9.6)
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     optional: true
@@ -343,34 +343,34 @@ snapshots:
     dependencies:
       '@typescript/old': typescript@6.0.3
 
-  prettier-plugin-expand-json@1.0.5(prettier@3.9.5):
+  prettier-plugin-expand-json@1.0.5(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-markdown-html@1.4.1(prettier@3.9.5):
+  prettier-plugin-markdown-html@1.4.1(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-pkg@0.22.1(prettier@3.9.5):
+  prettier-plugin-pkg@0.22.1(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-sh@0.19.0(prettier@3.9.5):
+  prettier-plugin-sh@0.19.0(prettier@3.9.6):
     dependencies:
       '@reteps/dockerfmt': 0.5.4
-      prettier: 3.9.5
+      prettier: 3.9.6
       sh-syntax: 0.6.0
 
-  prettier-plugin-sort-json@4.2.0(prettier@3.9.5):
+  prettier-plugin-sort-json@4.2.0(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-yaml@1.2.0(prettier@3.9.5):
+  prettier-plugin-yaml@1.2.0(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
       yaml: 2.9.0
 
-  prettier@3.9.5: {}
+  prettier@3.9.6: {}
 
   sh-syntax@0.6.0: {}
 
