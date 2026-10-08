@@ -11,6 +11,9 @@ engineStrict: true
 
 gitChecks: false
 
+lockfile:
+  includeResolutionSettings: true
+
 minimumReleaseAgeExclude:
   - '@standard-config/*'
   - '@typescript/*'
