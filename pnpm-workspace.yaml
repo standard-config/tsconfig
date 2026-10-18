@@ -1,6 +1,3 @@
-allowBuilds:
-  simple-git-hooks: true
-
 autoDedupe: true
 
 autoInstallPeers: false
@@ -21,6 +18,10 @@ minimumReleaseAgeExclude:
 
 overrides:
   '@prettier/plugin-oxc': '-'
+
+permissions:
+  simple-git-hooks:
+    build: true
 
 strictPeerDependencies: true
 
