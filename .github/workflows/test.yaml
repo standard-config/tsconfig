@@ -13,13 +13,12 @@ permissions:
 
 jobs:
   test:
-    name: node@${{ matrix.node-version }} / typescript@7
+    name: node@${{ matrix.node-version }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         node-version:
-          - 22
           - 24
           - latest
     steps:
@@ -30,26 +29,4 @@ jobs:
         with:
           cache: true
           runtime: node@${{ matrix.node-version }}
-      - run: pnpm exec tsc --version
-      - run: pnpm run '/^test:tsc:/'
-
-  test-tsc6:
-    name: node@${{ matrix.node-version }} / typescript@6
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version:
-          - 22
-          - 24
-          - latest
-    steps:
-      - uses: actions/checkout@v7.0.1
-        with:
-          persist-credentials: false
-      - uses: pnpm/setup@v3.1.1
-        with:
-          cache: true
-          runtime: node@${{ matrix.node-version }}
-      - run: pnpm exec tsc6 --version
-      - run: pnpm run '/^test:tsc6:/'
+      - run: pnpm test

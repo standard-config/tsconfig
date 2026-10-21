@@ -1,5 +1,8 @@
 import './fixtures/allow-unreachable-code.ts';
+import './fixtures/allow-unused-labels.ts';
 import './fixtures/erasable-syntax-only.ts';
+import './fixtures/lib-dom.ts';
+import './fixtures/lib-es2026.ts';
 import './fixtures/no-fallthrough-cases-in-switch.ts';
 import './fixtures/no-implicit-any.ts';
 import './fixtures/no-implicit-override.ts';
@@ -9,6 +12,7 @@ import './fixtures/no-unchecked-indexed-access.ts';
 import './fixtures/no-unused-parameters.ts';
 import './fixtures/resolve-json-module.ts';
 import './fixtures/strict-bind-call-apply.ts';
+import './fixtures/strict-builtin-iterator-return.ts';
 import './fixtures/strict-function-types.ts';
 import './fixtures/strict-null-checks.ts';
 import './fixtures/strict-property-initialization.ts';
