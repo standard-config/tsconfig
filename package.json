@@ -51,7 +51,7 @@
 		"@standard-config/prettier": "^1.22.0",
 		"prettier": "^3.9.10",
 		"simple-git-hooks": "^2.14.0",
-		"typescript": "7.1.0-beta"
+		"typescript": "7.1.0-dev.20261021.1"
 	},
 	"scripts": {
 		"fix": "pnpm format",
