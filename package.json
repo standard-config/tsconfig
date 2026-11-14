@@ -48,7 +48,7 @@
 		}
 	},
 	"devDependencies": {
-		"@standard-config/prettier": "^1.22.0",
+		"@standard-config/prettier": "^1.23.0",
 		"prettier": "^3.10.0",
 		"simple-git-hooks": "^2.14.0",
 		"typescript": "7.1.0-beta"
