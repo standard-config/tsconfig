@@ -14,9 +14,6 @@ minimumReleaseAgeExclude:
   - '@typescript/*'
   - typescript
 
-overrides:
-  '@prettier/plugin-oxc': '-'
-
 permissions:
   simple-git-hooks:
     build: true
@@ -24,3 +21,7 @@ permissions:
 strictPeerDependencies: true
 
 trustPolicy: no-downgrade
+
+update:
+  ignoreDeps:
+    - node
